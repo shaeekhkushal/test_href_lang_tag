@@ -4,7 +4,7 @@ import csv
 
 
 def check_hreflang(url, target_hreflang):
-    sitemap_url = "https://www.listerine.com/sitemap.xml"
+    sitemap_url = "https://www.your_site_URL/here"
     response = requests.get(sitemap_url)
     soup = BeautifulSoup(response.content, 'lxml')
 
